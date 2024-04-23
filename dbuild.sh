@@ -1,2 +1,2 @@
 #/bin/bash
-sudo docker build -t dockercelepuk/gatewayssh . --no-cache
+sudo docker build -t dockercelepuk/gatewayssh . --no-cache --progress=plain

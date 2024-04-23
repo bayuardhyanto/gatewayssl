@@ -1,4 +1,4 @@
-FROM ubuntu/nginx:1.18-20.04_beta
+FROM --platform=linux/arm64v8 ubuntu/nginx:1.18-20.04_beta
 
 RUN mkdir /run/sshd 
 #&& chmod -R 777 /run/sshd
